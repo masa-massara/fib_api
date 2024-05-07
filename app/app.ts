@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 dotenv.config();
 
-app.get("/fib", (request: Request, response: Response) => {
+app.get("fib-api-lime.vercel.app/fib", (request: Request, response: Response) => {
   try {
     queryCheck(request.query.n);
     const answer = calculate_fibonacci(Number(request.query.n));
