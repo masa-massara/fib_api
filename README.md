@@ -29,6 +29,14 @@ npm run dev
 npm run dev
 ```
 
+サーバの立ち上げポートの変更方法
+```shell
+.envファイルを作成し
+PORT = 〇〇(任意のポート番号)
+としてください
+```
+
+
 ## Commit message
 
 ```shell
