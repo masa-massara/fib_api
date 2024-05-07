@@ -1,3 +1,34 @@
+# fib_api
+
+指定した n 番目のフィボナッチ数を返す REST API です。
+
+## 環境構築
+
+```shell
+git clone https://github.com/masa-massara/fib_api.git
+npm i
+```
+
+## 使用方法
+
+コンパイルの方法
+
+```shell
+npx tsc
+```
+
+サーバの立ち上げの方法
+
+```shell
+npm run dev
+```
+
+ユニットテストの方法
+
+```shell
+npm run dev
+```
+
 ## Commit message
 
 ```shell
