@@ -1,9 +1,9 @@
 # fib_api
 
-指定した n 番目のフィボナッチ数を返す REST API です。
-以下の URL からアクセスできます。
-https://fib-api-hc83.onrender.com/fib?n=99
-クエリ(n=〇〇)の数値を操作することでn項目の数値がJSON形式で返ってきます。
+指定した n 番目のフィボナッチ数を返す REST API です。  
+以下の URL からアクセスできます。  
+https://fib-api-hc83.onrender.com/fib?n=99  
+クエリ(n=〇〇)の数値を操作することでn項目の数値がJSON形式で返ってきます。  
 
 ## ソースコードの構成
 
