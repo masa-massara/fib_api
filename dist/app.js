@@ -10,7 +10,7 @@ const queryCheck_1 = require("./queryCheck");
 const app = (0, express_1.default)();
 const PORT = process.env.PORT || 3000;
 dotenv_1.default.config();
-app.get("/sample.com/fib", (request, response) => {
+app.get("fib-api-hc83.onrender.com/fib", (request, response) => {
     try {
         (0, queryCheck_1.queryCheck)(request.query.n);
         const answer = (0, fibonacci_1.calculate_fibonacci)(Number(request.query.n));
