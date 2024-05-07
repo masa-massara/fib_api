@@ -3,7 +3,15 @@
 指定した n 番目のフィボナッチ数を返す REST API です。  
 以下の URL からアクセスできます。  
 https://fib-api-hc83.onrender.com/fib?n=99  
-クエリ(n=〇〇)の数値を操作することでn項目の数値がJSON形式で返ってきます。  
+クエリ(n=〇〇)の数値を操作することでn項目の数値がJSON形式で返ってきます。 
+JSON形式ではBigInteger型をサポートしておらず、 返ってきた数値が大きいと不正確な値になってしまうため文字列として返す様にしています。
+
+例)
+```shell
+$ curl -X GET -H "Content-Type: application/json" "https://fib-api-hc83.onrender.com/fib?n=99"
+
+{"result":"218922995834555169026"}
+``` 
 
 デプロイにはRender.comのWebサービスの無料プランを使用しています。
 非アクティブな状態が15分間続くとサービスがスリープしてしまうため、レスポンスに遅延が発生する恐れがあります。
