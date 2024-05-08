@@ -36,6 +36,7 @@ Javascript にコンパイルされたソースコードは dist フォルダに
 
 ```shell
 git clone https://github.com/masa-massara/fib_api.git
+cd fib_api/  
 npm i
 ```
 
